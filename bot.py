@@ -34,6 +34,7 @@ async def on_message(message):
         await message.channel.send("""Hello there!, it is the international toilet bot for help:
         !help - Open up this window
         !pressure - gives random motivational quotes
-        !flush - Give an end dialogue""")
+        !flush - Give an end dialogue
+        """)
 
 client.run('NzkxMTcxNDcwNTk5OTEzNDky.X-LR2Q.EzeECZbGiZah5iDr2G3bz1lWyXk')
