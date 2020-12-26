@@ -31,6 +31,9 @@ async def on_message(message):
     elif msg.startswith(prefix + 'pressure'):
         await message.channel.send(quote)
     elif msg.startswith(prefix + 'help'):
-        await message.channel.send('Hello there!, it is the international toilet bot for help:')
+        await message.channel.send("""Hello there!, it is the international toilet bot for help:
+        !help - Open up this window
+        !pressure - gives random motivational quotes
+        !flush - Give an end dialogue""")
 
 client.run('NzkxMTcxNDcwNTk5OTEzNDky.X-LR2Q.EzeECZbGiZah5iDr2G3bz1lWyXk')
